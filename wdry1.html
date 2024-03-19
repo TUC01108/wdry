@@ -53,10 +53,19 @@
 <h3>Morning:</h3>
 <p>
     Got in the office early. Runnning stand up in a few and then will begin the day and update here.
-    
+
 </p>
 <p>
-
+    Tried to diagnose what was going on with a service error that QA was getting when trying to save draft from
+    UI and then from sending request in service for cp port. Burned a lot of time trying to figure this out.
+    I think going forward I need to document the process for trying to identify what is happening.
+    In the sameway that CW1 looks at a problem and goes from one starting point and then branches towards
+    a solution rather than pepper spraying and seeing all the possible problems or trying to see it from
+    my perspective. Like a system for idenifying where the best starting point is. Starting from that starting point
+    and going layer by layer which uncovers what is actually happening. If I was to write a rough draft of what this
+    looks like it would be. Okay problem with saving a draft. Error is 500. Find in logs where error is popping up.
+    It appears at read only fields where a null pointer is happening for partyId. Why is partyId null for this request?
+    For non ancillary product we should not be checking for partyId? and this is where we are now.
 </p>
 <p>
 
