@@ -4,4 +4,4 @@
 
 ### adding wdry1 as first diary entries
 
-#### what else should we do
+#### what should we do now
