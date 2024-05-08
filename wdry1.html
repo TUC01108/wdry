@@ -80,7 +80,59 @@
     Then we make sure we know or have idea on how to fix.
     Then we begin coding.
     .. lets begin.
-    
+    ---
+    gitinfo2 [.udemy.com/course/basic-git-and-github/learn/lecture/11822062#overview]
+
+	[first set the user you want to commit as in folder]
+	check what user.email you are logged in as
+		git config user.email
+	set new user.email
+		git config user.email "<email>"
+	check what user.name you are logged in as
+		git config user.name
+	set user.name
+		git config user.name "<name>"
+
+	go to folder you want to clone repo into
+		creates a local project based on the link provided
+		git clone ___________
+		cd ___(name of repo)___
+		displays the remote repo links ( push & fetch )
+			git remote -v
+	get help on command
+		git <command> -h
+	commit is a set of saved repo changes
+	commit is never lost
+	commit has a hash key
+	create a readme file
+		echo Hello World! > Readme.md
+	adds all the file changes to the staging area
+		git add .
+		OR
+		git add file1.txt file3.txt file5.txt
+	allows us to create a commit
+		git commit -m "Initial commit"
+	gives us an overview of commits
+		git log
+	to unstage a file
+		git reset <filename>
+	print repository status
+		git status
+	display all available branches in folder
+		git branch
+	create a new branch
+		git branch <branch name>
+	change branches
+		git checkout <branch name>
+	gives extensive commit info
+		git show
+	gives shorthand commit info	
+		git show --name-only 1045d48482e7c8d3831d1d7c918dddae4d5ff9e5
+	gives info about allcommits on all branches	
+		git reflog
+	
+		git push
+    ---
 </p>
 <p>
 
